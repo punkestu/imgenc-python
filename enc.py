@@ -18,7 +18,7 @@ img = img.convert("RGB")
 pixels = img.load()
 
 fragment = 4
-fragment_mask = [0b11001100, 0b00110011, 0b00001100, 0b00000011]
+fragment_mask = [0b11000000, 0b00110000, 0b00001100, 0b00000011]
 
 counter = 0
 for i in range(img.size[0]):
